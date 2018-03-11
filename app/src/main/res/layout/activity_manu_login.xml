@@ -21,7 +21,10 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_manu_login"/>
+    <include
+        layout="@layout/content_manu_login"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="388dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -31,7 +34,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="25dp"
         app:fabSize="normal"
-        android:onClick="editar"
+        android:onClick="modificarLogin"
         app:srcCompat="@android:drawable/ic_menu_edit" />
 
 </android.support.constraint.ConstraintLayout>

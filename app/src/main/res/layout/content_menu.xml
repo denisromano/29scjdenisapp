@@ -9,4 +9,15 @@
     tools:context="br.com.fiap.a29scjdenisapp.MenuActivity"
     tools:showIn="@layout/app_bar_menu">
 
+
+    <TextView
+        android:id="@+id/etLoginSession"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:gravity = "right"
+        android:layout_marginTop="40dip"
+        android:layout_marginBottom="10dip"/>
+
+
 </android.support.constraint.ConstraintLayout>

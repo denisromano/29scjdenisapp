@@ -16,89 +16,52 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingTop="20dp">
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <AutoCompleteTextView
+
+            <EditText
                 android:id="@+id/etTipoImovel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/tipoImovel"
-                android:layout_marginBottom="10dp"
-                android:singleLine="true"/>
-            </android.support.design.widget.TextInputLayout>
+                android:hint="@string/tipoImovel"/>
 
-            <android.support.design.widget.TextInputLayout
+            <EditText
+                android:id="@+id/etLocalizacaoImovel"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etLocalizacaoImovel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/nomeLocalizacao"
-                    android:layout_marginBottom="10dp"
-                    android:singleLine="true"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:hint="@string/nomeLocalizacao"/>
 
-            <android.support.design.widget.TextInputLayout
+            <EditText
+                android:id="@+id/etTamanhoImovel"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etTamanhoImovel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/tamanho"
-                    android:layout_marginBottom="10dp"
-                    android:singleLine="true"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:hint="@string/tamanho"/>
 
-            <android.support.design.widget.TextInputLayout
+            <EditText
+                android:id="@+id/etAnoImovel"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etAnoImovel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/ano"
-                    android:layout_marginBottom="10dp"
-                    android:singleLine="true"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:hint="@string/ano"
+                android:inputType="phone"/>
 
-            <android.support.design.widget.TextInputLayout
+            <EditText
+                android:id="@+id/etValorImovel"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etValorImovel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/valor"
-                    android:layout_marginBottom="10dp"
-                    android:singleLine="true"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:hint="@string/valor"
+                android:inputType="phone"/>
 
-            <android.support.design.widget.TextInputLayout
+            <Spinner
+                android:id="@+id/spQuartosImovel"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etQuartosImovel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/quartos"
-                    android:layout_marginBottom="10dp"
-                    android:singleLine="true"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:entries="@array/quarto"
+                android:prompt="@string/quartos" />
 
-            <android.support.design.widget.TextInputLayout
+            <Spinner
+                android:id="@+id/spBanheirosImovel"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etBanheirosImovel"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/banheiros"
-                    android:layout_marginBottom="10dp"
-                    android:singleLine="true"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:entries="@array/banheiro"
+                android:prompt="@string/banheiros" />
 
             <Button
                 android:id="@+id/btSalvarNovoImovel"

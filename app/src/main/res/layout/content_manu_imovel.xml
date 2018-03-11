@@ -14,6 +14,7 @@
     android:focusableInTouchMode="true">
 
     <ScrollView
+
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -24,19 +25,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:paddingTop="20dp">
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etIdImovelManu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/hintIDImovel"
-                    android:layout_marginBottom="10dp"
-                    android:singleLine="true"
-                    android:enabled="false"/>
-            </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -102,29 +90,19 @@
                     android:enabled="false"/>
             </android.support.design.widget.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <Spinner
+                android:id="@+id/spQuartosImovelManu"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etQuartosImovelManu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/quartos"
-                    android:layout_marginBottom="10dp"
-                    android:enabled="false"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:entries="@array/quarto"
+                android:prompt="@string/quartos" />
 
-            <android.support.design.widget.TextInputLayout
+            <Spinner
+                android:id="@+id/spBanheirosImovelManu"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <AutoCompleteTextView
-                    android:id="@+id/etBanheirosImovelManu"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/banheiros"
-                    android:layout_marginBottom="10dp"
-                    android:enabled="false"/>
-            </android.support.design.widget.TextInputLayout>
+                android:layout_height="wrap_content"
+                android:entries="@array/banheiro"
+                android:prompt="@string/banheiros" />
 
             <Button
                 android:id="@+id/btSalvarImovelManu"

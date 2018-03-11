@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="sobre" />
+    <string name="sobre" >sobre</string>
     <string name="inicio">inicio</string>
     <string name="versao">1.0</string>
     <string name="desenvolvido">Denis Romano</string>
@@ -10,15 +10,14 @@
     <string name="errorConexao">Erro ao conectar</string>
     <string name="filtroListaUsuario">Filtro</string>
     <string name="menu_novoUsuario">Novo Usuario</string>
-    <string name="hintIDUsuarioConf">IDUser</string>
     <string name="loginNaoEncontrado">Usuario Nao encontrado</string>
     <string name="campoLiberado">Editar Campo</string>
     <string name="loginAtualizado">Usuario Atualizado!!!</string>
     <string name="DeletarLogin">Usuario Apagado!!!!</string>
     <string name="deletarLogin">Usuario Apagado!!!</string>
     <string name="msgDeletarUsuario">Deseja Deletar?</string>
-    <string name="menu_listarUsuario">Lista Usuarios</string>
-    <string name="btSalvarUsuaro">Salvar Usuario</string>
+    <string name="menu_listarUsuario">Lista Login</string>
+    <string name="btSalvarUsuaro">Salvar Login</string>
     <string name="casa">casa</string>
     <string name="apartamento">apartamento</string>
     <string name="nomeLocalizacao">Localizacao</string>
@@ -40,13 +39,15 @@
     <string name="tipoImovel">Tipo Imovel</string>
     <string name="listaImoveis">Lista Imoveis</string>
     <string name="localizacaoImovel">Localizacao</string>
-    <string name="hintIDImovel">ID Imovel</string>
     <string name="imovelAtualizado">Imovel Atualizado</string>
     <string name="errEncontrarImovel">Imovel Nao encontrado</string>
     <string name="deletarImovel">Apagar Imovel?</string>
     <string name="msgDeletarImovel">Imovel Apagado</string>
     <string name="msgDeletarImovelSucess">Imovel Deletado</string>
     <string name="menu_listaImovel">Lista Imoveis</string>
-    <string name="title_activity_manu_usuario">Alterar Usuario</string>
+    <string name="title_activity_manu_usuario">Alterar Login</string>
     <string name="title_activity_manu_imovel">Alterar Imovel</string>
+    <string name="txt_imoveis">Imoveis</string>
+    <string name="logout">logout</string>
+    <string name="imovel_menu">imovel</string>
 </resources>

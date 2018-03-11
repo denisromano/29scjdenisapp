@@ -3,39 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <item android:title="Imoveis">
+    <item android:title="@string/txt_imoveis">
         <menu>
             <item
                 android:id="@+id/novoImovel"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Novo Imovel" />
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/menu_novoImovel" />
             <item
                 android:id="@+id/listaImovel"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Listar Imoveis" />
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/listaImoveis" />
         </menu>
     </item>
 
-    <item android:title="Usuario">
+    <item android:title="@string/login_menu">
         <menu>
             <item
                 android:id="@+id/novoLogin"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Novo Usuario" />
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="@string/menu_novoUsuario" />
             <item
                 android:id="@+id/listaLogin"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Listar Usuarios" />
+                android:icon="@drawable/ic_people_list_24dp"
+                android:title="@string/menu_listarUsuario" />
         </menu>
     </item>
 
-    <item android:title="Sobre">
+    <item android:title="@string/sobre">
         <menu>
             <item
                 android:id="@+id/informacoesApp"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Sobre" />
+                android:title="@string/sobre" />
         </menu>
     </item>
-
 </menu>
