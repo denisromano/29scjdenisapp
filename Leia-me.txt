@@ -1,0 +1,6 @@
+Professor ocorreu alguns erros durante o upload no repositorio.
+
+Precisei criar outra branch e caso tenha algum erro criei tambem outro repositorio por precausao
+
+Endereco do outro repositorio https://github.com/denisromano/29scjdenisapp2
+
